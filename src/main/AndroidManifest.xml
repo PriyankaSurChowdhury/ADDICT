@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.task.priyanka.addict">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_addict_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_addict_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name=".dialog.DialogLimitWarning" />
+
+        <activity
+            android:name=".activity.TargetSetupActivity"
+            android:label="Target Setting"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+
+        <activity
+            android:name=".activity.TrackerActivity"
+            android:noHistory="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+
+        <activity
+            android:name=".activity.SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>

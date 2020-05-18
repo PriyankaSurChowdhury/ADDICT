@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Addict</string>
+    <string name="title_activity_tracker">TrackerActivity</string>
+    <string name="enter_target_count_here">Enter target count</string>
+    <string name="save">Save</string>
+    <string name="target_is_set">Target is Set!</string>
+    <string name="you_are_exceeding_your_limit">You are exceeding your limit!</string>
+    <string name="ok_noted">Ok, Noted</string>
+    <string name="target_reset">Target Reset!</string>
+    <string name="current_count">C:</string>
+    <string name="target_counter">T:</string>
+    <string name="target_zero">T: 0</string>
+    <string name="current_zero">C: 0</string>
+    <string name="warning">Warning!</string>
+    <string name="set_target">Set target!</string>
+    <string name="dev_priyanka_sur_chowdhury">Ⓒ Priyanka Sur Chowdhury</string>
+</resources>

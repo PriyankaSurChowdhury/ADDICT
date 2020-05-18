@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SplashActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/appHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A D D I C T"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/_28sdp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_100sdp"/>
+
+    <ImageView
+        android:id="@+id/iv_splash"
+        android:layout_below="@+id/appHeader"
+        android:layout_width="@dimen/_160sdp"
+        android:layout_height="@dimen/_160sdp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/_18sdp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dev_priyanka_sur_chowdhury"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/_11sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:textColor="@color/black"/>
+
+
+</RelativeLayout>
